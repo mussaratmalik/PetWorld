@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var s1= prompt("Enter student marks of Subject1:");
+        var s2= prompt("Enter student marks of Subject2:");
+        var s3= prompt("Enter student marks of Subject3:");
+        var s4= prompt("Enter student marks of Subject4:");
+        var s5= prompt("Enter student marks of Subject5:");
+        var s6= prompt("Enter student marks of Subject6:");
+        var mark= (parseInt(s1)+parseInt(s2)+parseInt(s3)+parseInt(s4)+parseInt(s5)+parseInt(s6))/600*100;
+        if(mark>=80 && mark<=90)
+        {
+            document.write("<br> Entered 6 subjects marks are:",s1,"   ",s2,"   ",s3,"   ",s4,"   ",s5,"   ",s6,"   ",);
+            document.write("<br>Your Grade is A");
+        }
+        else if(mark>=70 && mark<80)
+        {
+            document.write("<br> Entered 6 subjects marks are:",s1,"   ",s2,"   ",s3,"   ",s4,"   ",s5,"   ",s6,"   ",);
+            document.write("<br>Your Grade is B");
+        }
+        else if(mark>=60 && mark<70)
+        {
+            document.write("<br> Entered 6 subjects marks are:",s1,"   ",s2,"   ",s3,"   ",s4,"   ",s5,"   ",s6,"   ",);
+            document.write("<br>Your Grade is C");
+        }
+        else if(mark>=50 && mark<60)
+        {
+            document.write("<br> Entered 6 subjects marks are:",s1,"   ",s2,"   ",s3,"   ",s4,"   ",s5,"   ",s6,"   ",);
+            document.write("<br>Your Grade is D");
+        }
+        else if(mark>=40 && mark<50)
+        {
+            document.write("<br> Entered 6 subjects marks are:",s1,"   ",s2,"   ",s3,"   ",s4,"   ",s5,"   ",s6,"   ",);
+            document.write("<br>Your Grade is B");
+        }
+    </script>
+</body>
+</html>

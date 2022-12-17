@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n1= prompt("Enter 1st number:");
+        var n2= prompt("Enter 2nd number:");
+        var op= prompt("Enter Operator:");
+        switch(op){
+            case '+':
+                    document.write("<br>Your entered numbers are :",n1,"   ",n2, "<br>Entered Operator is:",op);
+                    document.write("<br>The sum of two numbers:",parseInt(n1)+parseInt(n2));
+                    break;
+             case '-':
+                    document.write("<br>Your entered numbers are :",n1,"   ",n2, "<br> Entered Operator is:",op);
+                    document.write("<br>The difference of two numbers:",parseInt(n1)-parseInt(n2));
+                    break;
+             case '*':
+                    document.write("<br>Your entered numbers are :",n1,"   ",n2, "<br> Entered Operator is:",op);
+                    document.write("<br>The Multiplication of two numbers:",parseInt(n1)*parseInt(n2));
+                    break;
+            case '/':
+                    document.write("<br>Your entered numbers are :",n1,"   ",n2, "<br> Entered Operator is:",op);
+                    document.write("<br>The Quotient of two numbers:",parseInt(n1)/parseInt(n2));
+                    break;
+            case '%':
+                    document.write("<br>Your entered numbers are :",n1,"   ",n2, "<br> Entered Operator is:",op);
+                    document.write("<br>The Remainder of two numbers:",parseInt(n1)%parseInt(n2));
+                    break;
+            default:
+                    document.write("<br>You entered invalid operator");
+
+
+        }
+    </script>
+</body>
+</html>
